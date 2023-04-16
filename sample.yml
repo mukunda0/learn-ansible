@@ -6,7 +6,7 @@
         msg: Hello World Testing !!
 
 - name: Demo Play 2
-  hosts: localhost
+  hosts: all
   tasks:
     - name: hallo surya
       ansible.builtin.debug:
